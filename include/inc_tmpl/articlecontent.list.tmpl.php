@@ -79,7 +79,7 @@ $buttonAction .= '</tr></table>';
             <tr><td colspan="2"><img src="img/leer.gif" alt="" width="1" height="1" /></td></tr>
             <tr>
               <td valign="top" class="v10" style="color:#727889"><?php echo $BL['be_article_akeywords'] ?>:&nbsp;</td>
-              <td valign="top" class="v10"><?php if($article["article_keyword"]) {echo html($article["article_keyword"]);}else{echo "not defined/completed";} ?></td>
+              <td valign="top" class="v10"><?php if($article["article_keyword"]) {echo html($article["article_keyword"]);}else{echo "niezdefiniowane/ukończone";} ?></td>
             </tr>
             <?php
             if($article["article_canonical"]) {
